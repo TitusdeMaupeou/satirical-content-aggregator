@@ -1,0 +1,65 @@
+{
+    "https://nieuwspaal.nl" : {
+        "name": "Nieuwspaal",
+        "article": "big-post",
+        "header": "post-title",
+        "text": "excerptlink",
+        "img": "widget-img"
+    },
+    "https://rechtzetting.be" : {
+        "name": "Rechtzetting",
+        "article": "post",
+        "header": "ft-img-caption",
+        "text": "/",
+        "img": "ft-img-img"
+    },
+    "https://speld.nl" : {
+        "name": "De Speld",
+        "article": "articles cf",
+        "header": "ft-img-caption",
+        "text": "articles cf",
+        "img": "divlink"
+    },
+    "https://raaskalderij.be" : {
+        "name": "Raaskalderij",
+        "article": "post",
+        "header": "entry-title",
+        "text": "entry-summary",
+        "img": ""
+    },
+    "http://tvolen.be" : {
+        "name": "TV Olen",
+        "article": "post",
+        "header": "entry-header",
+        "text": "entry-content",
+        "img": "wp-post-image"
+    },
+    "https://degladiool.nl/" : {
+        "name": "De Gladiool",
+        "article": "post",
+        "header": "post-title",
+        "text": "/",
+        "img": "/"
+    },
+    "http://deklaptand.be/" : {
+        "name": "De Klaptand",
+        "article": "first-news",
+        "header": "post-box-title",
+        "text": "entry",
+        "img": "wp-post-image"
+    },
+    "https://ermaggezongenworden.wordpress.com/" : {
+        "name": "Er Mag Gezongen Worden",
+        "article": "post",
+        "header": "pagetitle",
+        "text": "entry",
+        "img": "/"
+    },
+    "http://hewat.nl/" : {
+        "name": "He Wat?",
+        "article": "post",
+        "header": "entry-title",
+        "text": "entry-content",
+        "img": "/"
+    }
+}
