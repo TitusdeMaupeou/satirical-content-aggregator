@@ -6,11 +6,12 @@ from requests.exceptions import HTTPError
 urls = []
 html_obj = {}
 article_list = []
+params = []
 
 with open('titles.json') as file:
     data = json.load(file)
 
-params = []
+
 for k,v in data.items():
     urls.append(k)
     for item in v:
@@ -28,9 +29,8 @@ def get_html(url, index):
             if articles.find(class_ =v):
                 if articles.find(class_=v).get_text():
                     article_info[k] = articles.find(class_=v).get_text()
-                if articles.find('img'):
-                    img = articles.find('img')
-                    article_info['img'] = img['src']
+                if articles.find('img'): 
+                    article_info['img'] = articles.find('img')['src']
         article_list.append(article_info)
 
 for index, url in enumerate(urls):
