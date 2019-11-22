@@ -61,5 +61,12 @@
         "header": "entry-title",
         "text": "entry-content",
         "img": "/"
+    },
+    "https://hetbelegvanantwerpen.be" : {
+        "name": "Het Beleg van Antwerpen",
+        "article": "td_module_2",
+        "header": "entry-title",
+        "text": "td-excerpt",
+        "img": "td-module-image"
     }
 }
